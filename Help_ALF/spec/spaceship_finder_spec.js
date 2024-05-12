@@ -11,7 +11,7 @@ describe("findSpaceship", function() {
         expect(findSpaceship(map)).toEqual([7, 2]); 
     });
         it("should find the spaceship at the bottom coordinates", function() {
-        var map = ".......\n" +
+        var map =   ".......\n" +
                     ".......\n" +
                     ".......\n" +
                     ".......\n" +
@@ -23,7 +23,7 @@ describe("findSpaceship", function() {
         expect(findSpaceship(map)).toEqual([8, 2]);
     })
     it("should find the spaceship one upper the true coordinates", function() {
-    var map = ".......\n" +
+    var map =   ".......\n" +
                 ".......\n" +
                 ".......\n" +
                 ".......\n" +
@@ -33,6 +33,18 @@ describe("findSpaceship", function() {
                 ".......\n"+
                 ".......\n";
     expect(findSpaceship(map)).toEqual([6, 2]);
+})
+        it("should find the spaceship two upper the true coordinates", function() {
+    var map =   ".......\n" +
+                ".......\n" +
+                ".......\n" +
+                ".......\n" +
+                ".......\n" +
+                "..X....\n" +
+                "........\n"+
+                ".......\n"+
+                ".......\n";
+    expect(findSpaceship(map)).toEqual([5, 2]);
 })
     it("should return 'Spaceship lost forever.' if no spaceship is found", function() {
         var map = ".......\n" +
