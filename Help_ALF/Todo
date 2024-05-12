@@ -5,4 +5,6 @@ suche eins drüber => [5, 2]
 suche eins drüber => [4, 2]
 suche eins drüber => [3, 2]
 suche eins drüber => [2, 2]
-suche ganz oben => [1, 2]
+suche eins drüber => [1, 2]
+suche ganz nach oben => [0, 2]
+Raumschiff ist nicht mehr am Parkplatz
