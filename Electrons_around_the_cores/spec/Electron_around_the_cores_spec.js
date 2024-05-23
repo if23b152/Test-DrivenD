@@ -1,5 +1,3 @@
-const electronsAroundTheCores = require('../src/Electrons_around_the_cores');
-
 describe('Electrons around the cores', () => {
     it('should return 20 for [5, 2, 3, 3, 1, 6]', () => {
         expect(electronsAroundTheCores([5, 2, 3, 3, 1, 6])).toBe(20);
