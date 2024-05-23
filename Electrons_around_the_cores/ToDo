@@ -1,0 +1,6 @@
+1. Testfall für Eingabe [5, 2, 3, 3, 1, 6].. sollte 20 zurückgeben
+2. Testfall für Eingabe [3, 6, 1, 1].. sollte 11 zurückgeben
+3. Testfall für Eingabe [2, 3, 4, 1].. sollte 10 zurückgeben
+4. Testfall für Eingabe [6, 6, 1, 6].. sollte 19 zurückgeben
+5. Testfall für Eingabe [2, 4, 6].. sollte 12 zurückgeben
+6. Testfall für Eingabe [1, 3, 4, 2, 5].. sollte 15 zurückgeben
